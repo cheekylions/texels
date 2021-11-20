@@ -1,0 +1,2 @@
+class Texel:
+    var material
