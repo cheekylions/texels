@@ -1,2 +1,3 @@
 class Texel:
-    var material
+    position = Vector(0,0)
+    material
