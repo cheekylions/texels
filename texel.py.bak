@@ -1,7 +1,0 @@
-import Vector3
-
-position = None
-
-class Texel:
-
-    self.position = Vector3(0,0,0)
