@@ -1,0 +1,6 @@
+import Texel
+
+class Body:
+
+    def __init__(self, position):
+        self.position = new Vector(position)

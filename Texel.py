@@ -1,5 +1,7 @@
+from Vector3 import *
+
+position = None
+
 class Texel:
 
-    def __init__(self):
-        position = Vector(0,0,0)
-    
+    self.position = Vector3(0,0,0)
