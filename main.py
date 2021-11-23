@@ -1,14 +1,23 @@
-import Universe
+import Universe as Universe
+import Parser as Parser
 
 player_name = ""
 
-while 1:
-    print("Welcome to Texels!")
+print("Welcome to Texels!")
     
-    while player_name == "":
-        player_name = input("What is your name? ")
+while player_name == "":
+    player_name = input("What is your name? ")
     
-        if type(player_name) is not str:
-            print("That's not a name!")
-            player_name = ""
-            player_name = input("What is your name?")
+    print("Hey, " + player_name + ".")
+    print("--------")
+    print(Universe.introduction)
+
+while True:  
+    task = input("What would you like to do?")
+    task = Parser.parse(task)
+    
+    if task is None:
+        print("I don't understand that command.")
+    
+    if task == "exit":
+        break

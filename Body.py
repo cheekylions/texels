@@ -1,6 +1,8 @@
 import Texel
 
-class Body:
 
-    def __init__(self, position):
-        self.position = Vector(position)
+class Body:
+    position = Texel.vmath.Vector3(0, 0, 0)
+    
+    ShapeLayer = []
+    LayerStack = []
