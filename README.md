@@ -14,6 +14,7 @@ Right now:
 ------
 
 * Build room from body
+  * Make rooms their own referenced file
 * Room as 3D array
 * Set null stages of array & texel stages
 * Each texel contains a unique reference ID & type ID
